@@ -44,7 +44,7 @@ int main(void)
 	
 	LCD_write_command(First_Line(1));
 	LCD_write_string("Press to start!");
-	while(READBIT(PINA,PA7));
+	while(READBIT(PINA,PA7));  //press to start
 	
     while (1) 
     {
